@@ -1,0 +1,58 @@
+<!one.html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>One</title>
+</head>
+<body>
+    <a href="two.html">Go to Two.html</a>
+</body>
+</html>
+
+<!two.html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Two</title>
+</head>
+<body>
+    Welcome to two.html.
+    <br>
+    <a href="three.html">Go to three.html</a>
+</body>
+</html>
+
+<!three.html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Three</title>
+</head>
+<body>
+    Welcome to Hyperlinks.
+</body>
+</html>
+
+<!B>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Linking Within the Same File</title>
+</head>
+<body>
+    <a id="top">Top Region</a>
+    <br>
+    <a href="#bottom">Go to Bottom</a>
+    
+    <!-- Add large textual content to create scroll effect -->
+    <p style="margin-top: 1000px;"></p>  
+
+    <a id="bottom">Bottom Region</a>
+    <br>
+    <a href="#top">Go to Top</a>
+</body>
+</html>
